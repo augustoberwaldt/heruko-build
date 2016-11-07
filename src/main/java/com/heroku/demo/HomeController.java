@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
-	@RequestMapping("/logs")
+	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
 				
