@@ -1,0 +1,9 @@
+staging:
+  type: deploy
+  script:
+  - apt-get update -qy
+  - apt-get install -y ruby-dev
+  - gem install dpl
+  - dpl --provider=heroku --app=ifrs-tcc--api-key=30528904-7187-42c2-807c-60451f3c8041
+  only:
+  - master
