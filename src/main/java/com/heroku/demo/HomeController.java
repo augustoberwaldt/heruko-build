@@ -34,6 +34,13 @@ public class HomeController {
 	public String homeDouglas() {
 				
 		return	 "teste";
-    }    
+    } 
+	
+	@RequestMapping("/home2")
+	@ResponseBody
+	public String homeCassiano() {
+				
+		return	 "Teste Cassiano";
+    }
 
 }
