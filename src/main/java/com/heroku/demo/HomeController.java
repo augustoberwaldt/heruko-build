@@ -24,13 +24,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
 
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public String home() {
 				
 		return	 "index";
     }    
 	
-	@RequestMapping("/")
+	@RequestMapping("/home")
 	public String homeDouglas() {
 				
 		return	 "teste";
