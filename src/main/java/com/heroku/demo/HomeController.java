@@ -28,7 +28,7 @@ public class HomeController {
 	@ResponseBody
 	public String home() {
 				
-		return	 "hello word2";
+		return	 "index";
     }    
 	
 	@RequestMapping("/teste")
