@@ -32,10 +32,9 @@ public class HomeController {
     }    
 	
 	@RequestMapping("/douglas")
-	@ResponseBody
 	public String homeDouglas() {
 				
-		return	 "bozo world";
+		return	 "teste";
     }    
 
 }
