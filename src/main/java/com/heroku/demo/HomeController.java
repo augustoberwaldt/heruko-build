@@ -34,7 +34,7 @@ public class HomeController {
 	@RequestMapping("/teste")
 	public String homeDouglas() {
 				
-		return	 "";
+		return	 "teste";
     }    
 
 }
