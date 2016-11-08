@@ -35,7 +35,7 @@ public class HomeController {
 	@ResponseBody
 	public String homeDouglas() {
 				
-		return	 "bozo word2";
+		return	 "bozo world";
     }    
 
 }
