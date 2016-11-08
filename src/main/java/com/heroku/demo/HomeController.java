@@ -30,7 +30,7 @@ public class HomeController {
 		return	 "index";
     }    
 	
-	@RequestMapping("/teste")
+	@RequestMapping("/")
 	public String homeDouglas() {
 				
 		return	 "teste";
