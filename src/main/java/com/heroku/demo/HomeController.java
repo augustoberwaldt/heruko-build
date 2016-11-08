@@ -28,7 +28,7 @@ public class HomeController {
 	@ResponseBody
 	public String home() {
 				
-		return	 "hello word";
+		return	 "hello word2";
     }    
 
 }
