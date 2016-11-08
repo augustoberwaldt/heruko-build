@@ -31,10 +31,10 @@ public class HomeController {
 		return	 "hello word2";
     }    
 	
-	@RequestMapping("/douglas")
+	@RequestMapping("/teste")
 	public String homeDouglas() {
 				
-		return	 "teste";
+		return	 "";
     }    
 
 }
