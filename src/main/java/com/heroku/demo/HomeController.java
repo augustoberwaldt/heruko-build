@@ -25,22 +25,21 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 
 	@RequestMapping("/")
-	public String home() {
+	public String index() {
 				
 		return	 "index";
-    }    
+    }
 	
 	@RequestMapping("/home")
-	public String homeDouglas() {
+	public String home() {
 				
-		return	 "teste";
-    } 
-	
-	@RequestMapping("/home2")
-	@ResponseBody
-	public String homeCassiano() {
-				
-		return	 "Teste Cassiano";
+		return	 "home";
     }
-
+	
+	
+	
+	
+	
+	
+	
 }
