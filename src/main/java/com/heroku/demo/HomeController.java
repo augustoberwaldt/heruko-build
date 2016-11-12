@@ -36,6 +36,11 @@ public class HomeController {
 		return	 "home";
     }
 	
+	@RequestMapping("/defbanca")
+	public String defbanca() {
+				
+		return	 "defbanca";
+    }
 	
 	
 	
