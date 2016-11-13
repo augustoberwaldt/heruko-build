@@ -30,6 +30,7 @@ public class HomeController {
 		return	 "index";
     }
 	
+		
 	@RequestMapping("/dashboard")
 	public String dashboard() {
 				
