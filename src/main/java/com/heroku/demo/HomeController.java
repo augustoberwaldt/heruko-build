@@ -30,6 +30,12 @@ public class HomeController {
 		return	 "index";
     }
 	
+	@RequestMapping("/dashboard")
+	public String dashboard() {
+				
+		return	 "dashboard";
+    }
+	
 	@RequestMapping("/deftema")
 	public String deftema() {
 				
@@ -41,6 +47,7 @@ public class HomeController {
 				
 		return	 "defbanca";
     }
+	
 	
 	
 }
