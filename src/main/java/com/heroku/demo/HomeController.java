@@ -42,6 +42,11 @@ public class HomeController {
 				
 		return	 "deftema";
     }
+	@RequestMapping("/cadastratema")
+	public String cadastraTema() {
+				
+		return	 "cadastratema";
+    }
 	
 	@RequestMapping("/defbanca")
 	public String defbanca() {
