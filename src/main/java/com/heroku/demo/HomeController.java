@@ -30,10 +30,10 @@ public class HomeController {
 		return	 "index";
     }
 	
-	@RequestMapping("/home")
-	public String home() {
+	@RequestMapping("/deftema")
+	public String deftema() {
 				
-		return	 "home";
+		return	 "deftema";
     }
 	
 	@RequestMapping("/defbanca")
