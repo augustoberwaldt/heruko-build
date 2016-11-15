@@ -54,6 +54,12 @@ public class HomeController {
 		return	 "defbanca";
     }
 	
+	@RequestMapping("/defbancaedit")
+	public String defbancaedit() {
+				
+		return	 "defbancaedit";
+    }
+	
 	@RequestMapping("/blankpage")
 	public String blankpage() {
 				
