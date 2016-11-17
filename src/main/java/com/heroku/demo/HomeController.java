@@ -71,8 +71,8 @@ public class HomeController {
 		return	 "blankpage";
     }
 	
-	@RequestMapping("/defineGronograma")
-	public String defineGronograma() {
+	@RequestMapping("/defineCronograma")
+	public String defineCronograma() {
 				
 		return	 "defGronograma";
     }
