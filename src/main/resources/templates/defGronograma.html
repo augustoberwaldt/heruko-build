@@ -18,18 +18,14 @@
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-
 </head>
 
 <body>
-
     
     <div id="wrapper">
-
-        <!-- Navigation -->
-         <div th:replace="nav :: nav">
-         </div>
-
+            <div th:replace ="nav :: nav">
+             </div>
+             
         	<div id="page-wrapper">
 			<div class="container-fluid">
 
@@ -42,7 +38,7 @@
 						     <li>
                                 <i class="fa fa-dashboard"></i>  <a href="dashboard.html">Dashboard</a>
                             </li>
-							<li class="active"> <i class="fa fa-file"></i> Listagem de Temas</li>
+							<li class="active"> <i class="fa fa-file"></i> Listagem Historico de Gronocramas</li>
 						</ol>
 					
 					</div>
@@ -51,7 +47,7 @@
 				  <div class="col-lg-6">
 					   <form role="">
 	                     <div class="form-group input-group">
-	                         <input type="text" class="form-control" placeholder="professor,areá" />
+	                         <input type="text" class="form-control" placeholder="Curso , Ano, status" />
 	                         <span class="input-group-btn">
 	                         <button class="btn btn-default" type="button">
 	                         	<i class="fa fa-search"></i>
@@ -65,7 +61,7 @@
 	                <div class="col-lg-10">
 	                </div>
 	                 <div class="col-lg-2">
-	                 <a type="button" class="btn btn-sm btn-primary" href="cadastratema" >Definir Tema</a>
+	                 <a type="button" class="btn btn-sm btn-primary" href="cadastratema" >Cadastrar Gronograma </a>
                     	
                     </div>
 	               
@@ -74,27 +70,32 @@
 				<div class="row">   
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">Sugestão de Aréa</h3>
+							<h3 class="panel-title">Historico de Cronograma</h3>
 						</div>
 						<div class="panel-body">
 							<div class="table-responsive">
 								<table class="table table-bordered table-hover">
 									<thead>
 										<tr>
-											<th>Area</th>
 											<th>Curso</th>
-											<th>Professor</th>
+											<th>Semestre</th>
+											<th>Status</th>
+											<th>Ano</th>
+											<th>Prazo Incial</th>
+											<th>Prazo Final</th>
 										<th width="10%" >Ação</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>Banco de dados</td>
 											<td>TADS</td>
-											<td>Patricia Nogueira</td>
+											<td>1º</td>
+											<td><span class="label label-success">Em andamento</span></td>
+											<td>2017</td>
+											<td>05/03/2016</td>
+											<td>05/04/2016</td>
 											<td>
-											  <a href=""><i class="fa fa-book fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
+											  
 											  <a href=""><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i> </a>
 											   &nbsp;
 											  <a href="edittema"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i> </a>
@@ -102,52 +103,50 @@
 											</td>
 										</tr>
 										<tr>
-											<td>IA</td>
-											<td>TADS</td>
-											<td>Igor</td>
-											<td>
-											  <a href=""><i class="fa fa-book fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
-											  <a href=""><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i> </a>
-											   &nbsp;
-											  <a href=""><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i> </a>
-											</td>
-										</tr>
-										<tr>
-											<td>Calculo</td>
 											<td>Matematica</td>
-											<td>Maria</td>
+											<td>2º</td>
+											<td><span class="label label-danger">Encerrado</span></td>
+											<td>2016</td>
+											<td>26/02/2016</td>
+											<td>05/04/2016</td>
 											<td>
-											  <a href=""><i class="fa fa-book fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
-											  <a href=""><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i> </a>
-											   &nbsp;
-											  <a href=""><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i> </a>
-											</td>
-										</tr>
-										<tr>
-											<td>Programção Web</td>
-											<td>Tads</td>
-											<td>Marcio</td>
-											<td>
-											  <a href=""><i class="fa fa-book fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
-											  <a href=""><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
-											  <a href=""><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i> </a>
 											  
+											 
 											</td>
 										</tr>
 										<tr>
-											<td>IHC</td>
-											<td>Tads</td>
-											<td>Fernando</td>
+											<td>TADS</td>
+											<td>1º</td>
+											<td><span class="label label-danger">Encerrado</span></td>
+											<td>2015</td>
+											<td>05/03/2016</td>
+											<td>05/04/2016</td>
 											<td>
-											  <a href="" ><i class="fa fa-book fa-2x" aria-hidden="true"></i> </a>
-											  &nbsp;
-											  <a href=""><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i> </a>
-											   &nbsp;
-											  <a href=""><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i> </a>
+											  
+											
+											</td>
+										</tr>
+										<tr>
+											<td>TADS</td>
+											<td>1º</td>
+											<td><span class="label label-danger">Encerrado</span></td>
+											<td>2017</td>
+											<td>05/03/2016</td>
+											<td>05/04/2016</td>
+											<td>
+											  
+											 
+											</td>
+										</tr>
+										<tr>
+											<td>TADS</td>
+											<td>1º</td>
+											<td><span class="label label-danger">Encerrado</span></td>
+											<td>2017</td>
+											<td>05/03/2016</td>
+											<td>05/04/2016</td>
+											<td>
+											 
 											</td>
 										</tr>
 

@@ -47,6 +47,11 @@ public class HomeController {
 				
 		return	 "cadastratema";
     }
+	@RequestMapping("/edittema")
+	public String edittema() {
+				
+		return	 "cadastratema3";
+    }
 	
 	@RequestMapping("/defbanca")
 	public String defbanca() {
@@ -66,5 +71,16 @@ public class HomeController {
 		return	 "blankpage";
     }
 	
+	@RequestMapping("/defineGronograma")
+	public String defineGronograma() {
+				
+		return	 "defGronograma";
+    }
+	
+	@RequestMapping("/cadastraGronograma")
+	public String cadastraGronograma() {
+				
+		return	 "cadastraGronograma";
+    }
 	
 }
