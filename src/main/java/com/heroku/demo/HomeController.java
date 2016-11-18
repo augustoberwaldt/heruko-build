@@ -77,10 +77,10 @@ public class HomeController {
 		return	 "defGronograma";
     }
 	
-	@RequestMapping("/cadastraGronograma")
-	public String cadastraGronograma() {
+	@RequestMapping("/cadastraCronograma")
+	public String cadastraCronograma() {
 				
-		return	 "cadastraGronograma";
+		return	 "cadastraCronograma";
     }
 	
 }
