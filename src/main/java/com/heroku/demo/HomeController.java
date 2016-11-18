@@ -83,4 +83,9 @@ public class HomeController {
 		return	 "cadastraCronograma";
     }
 	
+	@RequestMapping("/config")
+	public String config() {
+				
+		return	 "config";
+    }
 }
