@@ -100,4 +100,9 @@ public class HomeController {
 		return	 "novaProposta";
     }
 	
+	@RequestMapping("/listaProposta")
+	public String listaProposta() {				
+		return	 "listaProposta";
+    }
+	
 }
