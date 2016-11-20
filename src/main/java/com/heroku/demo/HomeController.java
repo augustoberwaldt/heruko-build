@@ -95,4 +95,10 @@ public class HomeController {
 		return	 "defproposta";
     }
 	
+	@RequestMapping("/novaProposta")
+	public String novaProposta() {
+				
+		return	 "novaProposta";
+    }
+	
 }

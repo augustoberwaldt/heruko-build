@@ -3,78 +3,97 @@
 
 <head>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="Cassiano Doneda" content="" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="" />
+<meta name="Cassiano Doneda" content="" />
 
-    <title>SB Admin - Bootstrap Admin Template</title>
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+<title>SB Admin - Bootstrap Admin Template</title>
 
-    
-    <link href="css/sb-admin.css" rel="stylesheet" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="css/sb-admin.css" rel="stylesheet" />
+
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"
+	type="text/css" />
 
 
 </head>
 
 <body>
 
-    
-    <div id="wrapper">
 
-      <div th:replace="nav :: nav">
-       </div>
+	<div id="wrapper">
 
-        <div id="page-wrapper">
+		<div th:replace="nav :: nav"></div>
 
-             <div class="container-fluid">
+		<div id="page-wrapper">
 
-                <!-- Page Heading -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            Definição de Membros da Banca do TCC                            
-                        </h1>
-                        <ol class="breadcrumb">
-                            <li>
-                                <i class="fa fa-dashboard"></i>  <a href="dashboard.html">Dashboard</a>
-                            </li>
-                            <li class="active">
-                                <i class="fa fa-file"></i> Lista de Propostas
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- /.row -->
-                
-                <div class="row">
-                    
-                    <div class="col-lg-12">
-                        <h3>Lista de Trabalho de TCC</h3>                    
-                    </div>
-					
-					
-                </div>
-                <!-- /.row -->
-                
+			<div class="container-fluid">
 
-            </div>
-            <!-- /.container-fluid -->
+				<!-- Page Heading -->
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="page-header">Propostas de TCC
+						</h1>
+						<ol class="breadcrumb">
+							<li><i class="fa fa-dashboard"></i> <a href="dashboard.html">Dashboard</a>
+							</li>
+							<li class="active"><i class="fa fa-file"></i> Lista de
+								Propostas</li>
+						</ol>
+					</div>
+				</div>
+				<!-- /.row -->
 
-        </div>
-        <!-- /#page-wrapper -->
+				<div class="row">
+
+					<div class="col-lg-12">
+						<div class="alert alert-info alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <i class="fa fa-info-circle"></i>  <strong>Nenhuma proposta cadastrada!</strong> Inicie cadastrando uma <a href="novaProposta" class="alert-link">Nova Proposta</a>.
+                        </div>
+					</div>
+
+				</div>
+				<!-- /.row -->
+				<div class="row">
+					<div class="col-lg-6">
+						<form role="">
+							<div class="form-group input-group">
+								<input type="text" class="form-control"
+									placeholder="Curso , Ano, status" /> <span
+									class="input-group-btn">
+									<button class="btn btn-default" type="button">
+										<i class="fa fa-search"></i>
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-4"></div>
+					<div class="col-lg-2">
+						<a type="button" class="btn btn-sm btn-primary"
+							href="novaProposta">Nova Proposta</a>
+
+					</div>
+				</div>
+				
+			</div>
+			<!-- /.container-fluid -->
+
+		</div>
+		<!-- /#page-wrapper -->
 
 
 
-    </div>
-    <!-- /#wrapper -->  
-    <script src="js/jquery.js"></script>
+	</div>
+	<!-- /#wrapper -->
+	<script src="js/jquery.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 
