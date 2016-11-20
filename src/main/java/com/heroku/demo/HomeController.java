@@ -88,4 +88,11 @@ public class HomeController {
 				
 		return	 "config";
     }
+	
+	@RequestMapping("/defproposta")
+	public String defproposta() {
+				
+		return	 "defproposta";
+    }
+	
 }
