@@ -96,8 +96,7 @@ public class HomeController {
     }
 	
 	@RequestMapping("/novaProposta")
-	public String novaProposta() {
-				
+	public String novaProposta() {				
 		return	 "novaProposta";
     }
 	
