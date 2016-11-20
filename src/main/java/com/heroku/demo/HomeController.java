@@ -83,10 +83,10 @@ public class HomeController {
 		return	 "cadastraCronograma";
     }
 	
-	@RequestMapping("/config")
-	public String config() {
+	@RequestMapping("/configAluno")
+	public String configAluno() {
 				
-		return	 "config";
+		return	 "configAluno";
     }
 	
 	@RequestMapping("/defproposta")
