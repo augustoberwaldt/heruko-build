@@ -47,11 +47,6 @@ public class HomeController {
 				
 		return	 "cadastratema";
     }
-	@RequestMapping("/edittema")
-	public String edittema() {
-				
-		return	 "cadastratema3";
-    }
 	
 	@RequestMapping("/defbanca")
 	public String defbanca() {
@@ -71,22 +66,22 @@ public class HomeController {
 		return	 "blankpage";
     }
 	
-	@RequestMapping("/defineCronograma")
-	public String defineCronograma() {
+	@RequestMapping("/avaliarTcc")
+	public String avaliarTcc() {
 				
-		return	 "defGronograma";
+		return	 "avaliarTcc";
     }
 	
-	@RequestMapping("/cadastraCronograma")
-	public String cadastraCronograma() {
+	@RequestMapping("/visualizarTcc")
+	public String visualizarTcc() {
 				
-		return	 "cadastraCronograma";
+		return	 "visualizarTcc";
     }
 	
-	@RequestMapping("/config")
-	public String config() {
+	@RequestMapping("/configAluno")
+	public String configAluno() {
 				
-		return	 "config";
+		return	 "configAluno";
     }
 	
 	@RequestMapping("/defproposta")
