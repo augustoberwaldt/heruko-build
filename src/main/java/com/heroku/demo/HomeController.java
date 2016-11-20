@@ -89,6 +89,12 @@ public class HomeController {
 		return	 "configAluno";
     }
 	
+	@RequestMapping("/configProfessor")
+	public String configProfessor() {
+				
+		return	 "configProfessor";
+    }
+	
 	@RequestMapping("/defproposta")
 	public String defproposta() {
 				
