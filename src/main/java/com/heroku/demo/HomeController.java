@@ -111,4 +111,14 @@ public class HomeController {
 		return	 "listaProposta";
     }
 	
+	@RequestMapping("/estruturarDocumentos")
+	public String estruturarDocumentos() {				
+		return	 "estruturarDocumentos";
+    }
+	
+	@RequestMapping("/template")
+	public String template() {				
+		return	 "template";
+    }
+	
 }
